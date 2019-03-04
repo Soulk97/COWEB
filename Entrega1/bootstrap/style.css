@@ -96,6 +96,7 @@ body
 	font-style: italic;
 }
 .center td {
+	background-color: white;
 	text-align: center;
 	width: 30%;
 	border: 1px solid black;
