@@ -1,0 +1,143 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	color: #959595;
+	font: normal 12px/1.8em
+	Arial, Helvetica, sans-serif;
+	background: White;
+}
+.MainBody
+{
+	background-color: White;
+	margin: 0 auto;
+	padding: 0px;
+}
+.header
+{
+	height: 150px;
+	width: auto;
+
+	text-align: center;
+	font-size: 20px;
+	color: Black;
+	margin-top: -20px;
+	padding: 0px;
+
+
+	background-image: url("media/hotel-background.jpg");
+	background-color: #cccccc;
+	background-size: 240px 150px
+
+
+}
+.header h3
+{
+	font-size: 30px;
+	line-height: 40px;
+}
+.left
+{
+	width: 300px;
+	height: 850px;
+	margin: 0px;
+	padding-left: 15px;
+	background-color: GhostWhite;
+	float: left;
+	text-align: left;
+}
+.left h4
+{
+	font-size: 20px;
+	color: Black;
+	margin-top: 200px;
+}
+
+.left h5
+{
+	color: Black;
+	text-align: left;
+	padding: 250 0 0 0;
+	vertical-align: bottom;
+	font-size: 20px;
+	line-height: 0px;
+}
+
+.center
+{
+	width: auto;
+	height: 850px;
+	background-color: white;
+	margin: 0 auto;
+	padding-left: 250px;
+	text-align: left;
+
+}
+.center h1
+{
+	color: Black;
+	text-align: center;
+	padding: 250 0 0 0;
+	vertical-align: bottom;
+	line-height: 500px;
+}
+
+
+.center table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	caption-side: top;
+	font-size: 15px;
+}
+
+.center tr {
+	font-style: italic;
+}
+.center td {
+	background-color: white;
+	text-align: center;
+	width: 30%;
+	border: 1px solid black;
+}
+
+
+.right
+{
+	width: 223px;
+	height: 850px;
+	background-color: GhostWhite;
+	float: right;
+	padding: 0px;
+	color: Black;
+	text-align: center;
+
+}
+
+.right h1
+{
+	color: #003B87;
+	text-align: center;
+	vertical-align: top;
+	line-height: 20px;
+	font-size: 20px;
+}
+
+.footer
+{
+	background-color: GhostWhite;
+	height: 70px;
+	text-align:left;
+	padding-left:10px;
+	font-size: 20px;
+	color: Black;
+	margin: -90px 0px 0px 0px;
+	width: auto;
+
+}
+.footer h3
+{
+	font-size: 30px;
+	line-height: 40px;
+}

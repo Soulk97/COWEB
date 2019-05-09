@@ -1,0 +1,49 @@
+﻿Header y footer tienen ancho variable para adaptarse a la pantalla mejor
+
+left y right tienen anchura y altura personalizadas para poderse ajustar a los contenidos que he añadido
+
+center se ajusta al tamaño que queda en el centro a partir de left y right
+
+Header:
+  Barra de navegación
+    El hearder contiene una barra de navegación que contiene los campos Home, register, login y bookings, en hacer click a bookings abre dos apartados, "book a room" y "my bookings".
+    A la derecha del todo tiene una barra de búsqueda.
+    
+Left: 
+Links a tres hoteles y imagen de estos
+
+Right:
+Búsqueda en google y wikipedia
+
+Center:
+Register, subida de imagen, tabla con los hoteles, sugerencias y información de un hotel escogido.
+
+    
+tabla de hoteles:
+    simple tabla html con la información de cada hotel
+
+
+php:
+
+cliente.php
+    donde está el html del propio cliente
+
+servidor.php
+
+    crea una conexión con la base de datos, crea una tabla de hoteles y la rellena con los hoteles
+    
+    después hago una consulta sql para recibir los datos que tengo que enviar al cliente 
+    
+Registro
+En la página principal hay un registro en el que hay unos campos que hay que rellenar, en darle click a register enviará al servidor los datos mediante un POST de php
+
+subida de imagen
+    input de file, en el cual al hacer click te abre el recuadro para escoger un archivo, en darle a submit lo envia.
+    
+Suggestions
+al empezar a escribir te sugiere los hoteles que tienen un nombre que empieza por las letras que estás escribiendo, esto se hace mediante una GET de php a un archivo nuevo llamado getHint, en este get le pasas una sring que es lo que el usuario está escribiendo. En getHint hay una array con todos los hoteles y busca entre todos ellos el que empiece por la string dada
+
+Desplegable
+Lista desplegable en la que hay los distintos hoteles y con un get envia a un archivo php getHotel la información de los hoteles que ha encontrado 
+
+
